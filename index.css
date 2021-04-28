@@ -3,6 +3,10 @@ body {
   margin: 0 !important;
 }
 
+* {
+  color: red;
+}
+
 .header-class {
   background-color: #efebebfa;
 }
@@ -42,4 +46,24 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+.flex {
+  display: flex;
+  width: 50%;
+}
+
+.product {
+  background-color: aquamarine;
+  color: white;
+  padding: 30px;
+  margin: 10px;
+  border: 1px solid;
+}
+
+.product1,
+.product2,
+span,
+p {
+  color: black;
 }
